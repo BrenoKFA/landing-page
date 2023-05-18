@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.logo img {
+    width: 104px;
+    display: flex;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.departamentos {
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+    align-items: center;    
+    height: 100%;
+    margin-left: 40px;
+}
+
+.departamentos li {
+    padding: 0px 8px;
+}
+
+.departamentos a {
+    text-decoration: none;
+    color: #000;
+}
+
+.departamentos a:hover {
+    cursor: pointer;
+}
+
+.outros {
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+    align-items: center;    
+    height: 100%;
+    margin: 0px 60px 0px 70px;
+}
+
+.outros li {
+    padding: 0px 8px;
+}
+
+.outros a {
+    text-decoration: none;
+    color: #000;
+}
+
+.outros a:hover {
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    margin-right: 16px;
+}
+
+.icons button {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.icons span:hover {
+    cursor: pointer;
+}
+
+/* MAIN */
+
+.tarja-preta {
+    background-color: #000;
+    color: #fff;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.tarja-preta .nome-do-celular {
+    max-width: 550px;
+}
+
+.infos-direita {
+    display: flex;
+    align-items: center;
+}
+
+.tarja-preta .valores {
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.valor-destacado1 {
+    font-size: 18px;
+}
+
+.valor-destacado2 {
+    font-size: 14px;
+}
+
+.comprar-agora {
+    width: 170px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.comprar-agora button {
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #2189FF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.caminho p {
+    padding: 18px 24px;
+    font-size: 14px;
+}
+
+.transparente {
+    color: #00000088;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+
+.celular {
+    flex: 1;
+}
+
+.principal {
+    flex: 1;
+    padding: 0px 24px;
+}
+
+.img-celular img {
+    
+}
+
+.nome-principal {
+    padding: 0px 10px;
+}
+
+.nome-principal h2 {
+    margin-bottom: 20px;
+}
+
+.nome-principal p {
+    font-size: 12px;
+    color: #000000ad;
+}
+
+.vantagens {
+    padding: 0px 10px;
+    margin-top: 20px;
+    margin-left: 16px;
+    font-size: 14px;
+    color: #000000d5;
+    line-height: 22px;
+}
+
+.container-comprar {
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.comprar {
+    padding: 24px 48px;
+}
+
+.comprar1 {
+    padding-bottom: 16px;
+    font-size: 18px;
+}
+
+.comprar2 {
+    padding: 16px 0px;
+    border-top: 1px solid #0000003b;
+    border-bottom: 1px solid #0000003b;
+    font-size: 14px;
+}
+
+.comprar3 {
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+.comprar3 a {
+    color: #000;
+}
+
+.comprar3 p {
+    line-height: 22px;
+}
+
+.comprar3 p:nth-child(4) {
+    margin: 6px 0 20px 0;
+}
+
+.font18 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.azul {
+    color: #2189FF;
+    font-size: 16px;
+}
