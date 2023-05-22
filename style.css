@@ -33,52 +33,48 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    width: 100%;
     align-items: center;
 }
 
-.departamentos {
-    display: flex;
+.departamentos,
+.outros {
+    display: none;
     list-style: none;
     font-size: 13px;
     align-items: center;    
     height: 100%;
+}
+
+.departamentos {
     margin-left: 40px;
 }
 
-.departamentos li {
-    padding: 0px 8px;
-}
-
-.departamentos a {
-    text-decoration: none;
-    color: #000;
-}
-
-.departamentos a:hover {
-    cursor: pointer;
-}
-
 .outros {
-    display: flex;
-    list-style: none;
-    font-size: 13px;
-    align-items: center;    
-    height: 100%;
     margin: 0px 60px 0px 70px;
 }
 
+.departamentos li,
 .outros li {
     padding: 0px 8px;
 }
 
+.departamentos a,
 .outros a {
     text-decoration: none;
     color: #000;
 }
 
+.departamentos a:hover,
 .outros a:hover {
     cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    padding: 6px 0px;
+    border-radius: 15px;
 }
+
+
 
 .icons {
     display: flex;
@@ -95,7 +91,7 @@ nav {
     cursor: pointer;
 }
 
-/* MAIN */
+/* TARJA PRETA */
 
 .tarja-preta {
     background-color: #000;
@@ -112,6 +108,10 @@ nav {
 
 .tarja-preta .nome-do-celular {
     max-width: 550px;
+}
+
+.tarja-preta .nome-do-celular h2 {
+    font-size: 24px;
 }
 
 .infos-direita {
@@ -147,8 +147,11 @@ nav {
     border: none;
     background-color: #2189FF;
     color: #fff;
+    font-weight: bolder;
     cursor: pointer;
 }
+
+/* MAIN */
 
 .caminho p {
     padding: 18px 24px;
@@ -169,13 +172,53 @@ nav {
     flex: 1;
 }
 
-.principal {
-    flex: 1;
-    padding: 0px 24px;
+.img-celular {
+    display: flex;
+    justify-content: center;
 }
 
 .img-celular img {
-    
+    width: 100%;
+    min-width: 320px;
+}
+
+.copy-apoio1,
+.copy-apoio2 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.frete-gratis,
+.samsung-care ,
+.itau {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.frete-gratis img,
+.samsung-care img,
+.itau img {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 10px;
+}
+
+.frete-gratis p,
+.samsung-care p,
+.itau p {
+    font-size: 12px;
+}
+
+.copy-final {
+    display: none;
+}
+
+.principal {
+    flex: 1;
+    padding: 0px 24px;
 }
 
 .nome-principal {
@@ -248,4 +291,5 @@ nav {
 .azul {
     color: #2189FF;
     font-size: 16px;
+    font-weight: bold;
 }

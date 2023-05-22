@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@media (min-width: 1280px) {
+    .departamentos,
+    .outros {
+        display: flex;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .tarja-preta .nome-do-celular h2 {
+        font-size: 18px;
+    }
+    
+    .valor-destacado1 {
+        font-size: 14px;
+        font-weight: bolder;
+    }
+
+    .container,
+    .infos-direita {
+        display: block;
+    }
+
+    .comprar-agora {
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 640px) {
+    .tarja-preta .nome-do-celular h2 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .valor-destacado1 {
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+    .valor-destacado2 {
+        font-size: 12px;
+    }
+
+    .tarja-preta .valores {
+        font-size: 10px;
+        margin-right: 30px;
+    }
+
+    .container,
+    .infos-direita {
+        display: block;
+    }
+
+    .comprar-agora {
+        margin: 0;
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 639px) {
+    .tarja-preta .nome-do-celular h2 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .valor-destacado1 {
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+    .valor-destacado2 {
+        font-size: 12px;
+    }
+
+    .tarja-preta .valores {
+        font-size: 10px;
+        margin-right: 30px;
+    }
+
+    .container,
+    .infos-direita {
+        display: block;
+    }
+
+    .comprar-agora {
+        margin-top: 6px;
+    }
+
+    .conteudo {
+        display: block;
+        padding: 0px 24px;
+    }
+
+    .copy-final {
+        display: flex;
+        justify-content: center;
+    }
+
+    .copy-apoio1 {
+        display: none;
+    }
+}
