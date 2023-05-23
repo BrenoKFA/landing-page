@@ -293,3 +293,30 @@ nav {
     font-size: 16px;
     font-weight: bold;
 }
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+    text-align: center; 
+    font-size: 16px;
+}
+
+footer p {
+    padding: 4px;
+}
+
+footer p:nth-child(2) {
+    font-style: italic;
+    font-size: 12px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
