@@ -74,8 +74,6 @@ nav {
     border-radius: 15px;
 }
 
-
-
 .icons {
     display: flex;
     margin-right: 16px;
@@ -293,6 +291,8 @@ nav {
     font-size: 16px;
     font-weight: bold;
 }
+
+/* FOOTER */
 
 footer {
     background-color: #000;
